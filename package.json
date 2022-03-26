@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,8 @@
     "bitcoinjs-lib": "^5.1.9",
     "bitcoinjs-message": "^2.1.0",
     "node-snackbar": "^0.1.16",
-    "stimulus": "^1.1.1"
-  }
+    "stimulus": "^1.1.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
