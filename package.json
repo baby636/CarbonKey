@@ -29,13 +29,13 @@
     "sass-loader": "^8.0.2",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.0",
+    "webpack": "^5.0.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "bip32": "^2.0.5",
-    "bip39": "^3.0.2",
+    "bip39": "^3.1.0",
     "bitcoinjs-lib": "^5.1.9",
     "bitcoinjs-message": "^2.1.0",
     "node-snackbar": "^0.1.16",
